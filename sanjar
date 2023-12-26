@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ 
+
+
+
+ footer {
+            background-color: #333;
+            color: #fff;
+            padding: 30px 0;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contact-info, .social-media {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .contact-info h3, .social-media h3 {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+        }
+
+        .contact-info p, .social-media ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .social-media ul {
+            display: flex;
+            padding: 10px 0;
+        }
+
+        .social-media li {
+            margin-right: 15px;
+        }
+
+        .social-media a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+  @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+        .new{
+            font-family: 'Russo One', sans-serif;
+            text-align: center;
+            font-size: 40px;
+        }
+        .new1{
+            font-family: 'Russo One', sans-serif;
+            text-align: center;
+            font-size: 20px;
+            display: block; 
+        }
+
+        .conteiner{
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .ss{
+            margin-bottom: 50px;
+            margin-right: 50px;
+        }
+        .con{
+            padding-top: 50px;
+            font-family: 'Cuprum', sans-serif;
+            width: 600px;
+            display: flex;
+            font-size: 23px;
+        }
+        .con1{
+            font-family: 'Cuprum', sans-serif;
+            width: 600px;
+            display: flex;
+            font-size: 23px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+
+        .gorod{
+            display: flex;  
+        }
+        
+        .foto{
+            border: solid black;
+            width: auto;
+            height: auto;
+            display: flex;
+            margin: 0 auto;
+            text-align: center;
+
+        }
+        .foto img{
+            margin-top: 50px;
+        }
+        .ss{
+            display: flex;
+            margin-top: 50px;  
+        }
+        hr{
+            margin-bottom: 50px;
+        }
+       /* Обновленные стили для ul и li */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+}
+
+li {
+    margin: 10px;
+    position: relative;
+    text-align: center; /* Центрирование по вертикали и горизонтали */
+}
+
+li img {
+    max-width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-out;
+}
+
+li:hover img {
+    transform: scale(1.2);
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+   <p class="new">Нью-Йорк</p>
+   <div class="gorod">
+        <img width="400px" class="ss" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg/532px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg" alt="">
+        <p class="con">Туристическая столица США, cамый крупный город страны и один из крупнейших городов Мира. Нью-Йорк расположен на восточном побережье США на берегу Атлантического Океана. Он состоит из пяти крупных районов, именуемых «Боро» — Манхеттен, Бруклин, Бронкс, Куинс и Статен Айленд.</p>
+        </div>
+        <hr> 
+        <p class="new1">Статуя свободы</p> 
+       <div class="ss">
+        <img  width="400px" src="https://s26551.pcdn.co/wp-content/uploads/2023/07/Reclining-liberty-5.jpeg" alt="">
+            <p class="con1" >Статуя Свободы ( Liberty Enlightening the World ; французский: La Liberté éclairant le monde ) — колоссальная неоклассическая скульптура на острове Свободы в гавани Нью-Йорка в Нью-Йорке, США. Медная статуя, подарок народа Франции , была спроектирована французским скульптором Фредериком Огюстом Бартольди , а ее металлический каркас был построен Гюставом Эйфелем . Статуя была освящена 28 октября 1886 года.</p>
+        </p>
+    </div>
+    <hr>
+    <p class="new1">Архитектурные достопримечательности</p>
+    <div class="ss">
+        
+        <p class="con">В Нью-Йорке масса исторических и культурных достопримечательностей, которые известны на весь мир. Туристам явно есть, на что посмотреть. Взять хотя бы Бруклинский мост — один из самых старых и красивых висячих мостов во всей стране, который соединяет Бруклин с Манхэттеном. Или Центральный вокзал – старейшее здание среднего Манхэттена.</p>
+        <img width="500px" src="https://topvoyager.com/wp-content/uploads/2019/10/new-york-5.jpg" alt="">
+    
+    </div>
+    <hr>
+    <p class="new1">Знакомые маеста</p>
+    <div class="ss">
+        
+        <p class="con">Некоторые улицы и районы Нью-Йорка настолько знамениты, что многие люди хотят посетить город лишь ради того, чтобы один раз пройтись по ним. Ну кто не слышал о Таймс-Сквер, самой известной площади «Большого Яблока», которая буквально пропитана бешеный ритмом жизни, который царит тут повсюду.</p>
+        <img width="500px" src="https://topvoyager.com/wp-content/uploads/2019/10/new-york-7.jpg" alt="">
+         </div>
+        
+         <div class="uu">
+        
+        <ul>
+            <li>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSO7NitUh6HK-NdH7-kvwRnSHTR6UOeVrtMw&usqp=CAU" alt="Статуя Свободы">
+            </li>
+            <li>
+                <img src="https://architectureguru.ru/wp-content/uploads/2019/10/empire-state-building-1.jpg" alt="Эмпайр Стейт Билдинг">
+            </li>
+            <li>
+                <img src="https://newyork.forumdaily.com/wp-content/uploads/2020/05/shutterstock_1414639229.jpg" alt="Центральный парк">
+            </li>
+            <li>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStrp1c5n57hZVpgl8fGCtzIcx_DDsLnEAU7Q&usqp=CAU   " alt="Другая достопримечательность">
+            </li>
+        </ul>
+     </div>
+   
+     
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Контактная информация</h3>
+                <p>Email: sanjar@hub</p>
+                <p>Телефон: +7 777 777 7777</p>
+            </div>
+            <div class="social-media">
+                <h3>Мы в социальных сетях</h3>
+                <ul>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Ваше Ersayn Sanzhar. Все права защищены.</p>
+        </div>
+    </footer>
+    
+
+    </div>
+</body>
+</html>
